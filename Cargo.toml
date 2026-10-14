@@ -1,0 +1,48 @@
+[workspace]
+members = ["crates/*"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Niklas Krieger <niklask.coding@gmail.com>"]
+repository = "https://github.com/nk-coding/orthoflow"
+
+[workspace.dependencies]
+d2target = { package = "orthoflow-target", path = "crates/d2target", version = "0.1.0" }
+engine = { package = "orthoflow-engine", path = "crates/engine", version = "0.1.0" }
+geo = { package = "orthoflow-geo", path = "crates/geo", version = "0.1.0" }
+gocompat = { package = "orthoflow-gocompat", path = "crates/gocompat", version = "0.1.0" }
+graphbounds = { package = "orthoflow-graphbounds", path = "crates/graphbounds", version = "0.1.0" }
+graphjson = { package = "orthoflow-graphjson", path = "crates/graphjson", version = "0.1.0" }
+grouping = { package = "orthoflow-grouping", path = "crates/grouping", version = "0.1.0" }
+hierarchy = { package = "orthoflow-hierarchy", path = "crates/hierarchy", version = "0.1.0" }
+invariant = { package = "orthoflow-invariant", path = "crates/invariant", version = "0.1.0" }
+label = { package = "orthoflow-label", path = "crates/label", version = "0.1.0" }
+labelgeom = { package = "orthoflow-labelgeom", path = "crates/labelgeom", version = "0.1.0" }
+labeling = { package = "orthoflow-labeling", path = "crates/labeling", version = "0.1.0" }
+layoutgraph = { package = "orthoflow-layoutgraph", path = "crates/layoutgraph", version = "0.1.0" }
+limits = { package = "orthoflow-limits", path = "crates/limits", version = "0.1.0" }
+loops = { package = "orthoflow-loops", path = "crates/loops", version = "0.1.0" }
+nodeshape = { package = "orthoflow-nodeshape", path = "crates/nodeshape", version = "0.1.0" }
+orthoflow = { path = "crates/orthoflow", version = "0.1.0" }
+packing = { package = "orthoflow-packing", path = "crates/packing", version = "0.1.0" }
+placement = { package = "orthoflow-placement", path = "crates/placement", version = "0.1.0" }
+placementcost = { package = "orthoflow-placementcost", path = "crates/placementcost", version = "0.1.0" }
+proximity = { package = "orthoflow-proximity", path = "crates/proximity", version = "0.1.0" }
+quality = { package = "orthoflow-quality", path = "crates/quality", version = "0.1.0" }
+routing = { package = "orthoflow-routing", path = "crates/routing", version = "0.1.0" }
+shape = { package = "orthoflow-shape", path = "crates/shape", version = "0.1.0" }
+testkit = { package = "orthoflow-testkit", path = "crates/testkit" }
+trees = { package = "orthoflow-trees", path = "crates/trees", version = "0.1.0" }
+typedpool = { package = "orthoflow-typedpool", path = "crates/typedpool", version = "0.1.0" }
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+
+# WASM build profile (scripts/build-wasm.sh): release + panic=abort.
+[profile.wasm]
+inherits = "release"
+panic = "abort"

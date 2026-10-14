@@ -1,0 +1,1 @@
+{"nodes":[{"id":1,"width":173,"height":504,"topLeft":{"x":1027,"y":966},"shapeType":"Document"},{"id":2,"width":67,"height":79,"topLeft":{"x":1034,"y":1195},"shapeType":"Cloud"},{"id":3,"width":76,"height":81,"topLeft":{"x":1097,"y":1123},"shapeType":"Step"}],"edges":[],"CellSize":0,"containers":{"0":[1],"1":[2,3]},"crossingCost":0,"turnCost":0,"nonCenterPortCost":0}

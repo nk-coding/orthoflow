@@ -1,0 +1,21 @@
+[package]
+name = "orthoflow-labeling"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license = "MPL-2.0"
+repository.workspace = true
+description = "Label placement of the layout engine. Internal implementation detail of the `orthoflow` crate; no stable API."
+
+[dependencies]
+gocompat.workspace = true
+geo.workspace = true
+label.workspace = true
+shape.workspace = true
+nodeshape.workspace = true
+labelgeom.workspace = true
+limits.workspace = true
+layoutgraph.workspace = true
+
+[dev-dependencies]
+testkit.workspace = true

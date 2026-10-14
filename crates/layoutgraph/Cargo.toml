@@ -1,0 +1,18 @@
+[package]
+name = "orthoflow-layoutgraph"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license = "MPL-2.0"
+repository.workspace = true
+description = "Layout graph model (nodes, edges, clusters, transactions) of the layout engine. Internal implementation detail of the `orthoflow` crate; no stable API."
+
+[dependencies]
+gocompat.workspace = true
+geo.workspace = true
+label.workspace = true
+shape.workspace = true
+limits.workspace = true
+invariant.workspace = true
+labelgeom.workspace = true
+nodeshape.workspace = true

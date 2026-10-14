@@ -1,0 +1,1 @@
+{"nodes":[{"id":1,"width":381,"height":445,"topLeft":{"x":1640,"y":983},"shapeType":"Package"},{"id":2,"width":176,"height":158,"topLeft":{"x":1722,"y":1169},"shapeType":"Page"},{"id":3,"width":153,"height":185,"topLeft":{"x":1792,"y":1208},"shapeType":"Square"}],"edges":[],"CellSize":0,"containers":{"0":[1],"1":[2,3]},"crossingCost":0,"turnCost":0,"nonCenterPortCost":0}

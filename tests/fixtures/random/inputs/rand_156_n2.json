@@ -1,0 +1,1 @@
+{"nodes":[{"id":1,"width":294,"height":659,"topLeft":{"x":502,"y":85},"shapeType":"Queue"},{"id":2,"width":254,"height":242,"topLeft":{"x":502,"y":198},"shapeType":"Cloud"}],"edges":[],"CellSize":0,"containers":{"0":[1],"1":[2]},"crossingCost":0,"turnCost":0,"nonCenterPortCost":0}

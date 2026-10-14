@@ -1,0 +1,1 @@
+{"nodes":[{"id":1,"width":747,"height":699,"topLeft":{"x":61,"y":501},"shapeType":"Cloud"},{"id":2,"width":285,"height":689,"topLeft":{"x":475,"y":621},"shapeType":"Oval"},{"id":3,"width":661,"height":100,"topLeft":{"x":874,"y":1047},"shapeType":"Hexagon"}],"edges":[],"CellSize":0,"containers":{"0":[1,2,3]},"crossingCost":0,"turnCost":0,"nonCenterPortCost":0}

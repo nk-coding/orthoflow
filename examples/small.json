@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    { "id": 1, "width": 260, "height": 200, "topLeft": null, "shapeType": "Square",
+      "label": { "Text": "backend", "Position": "", "Width": 70, "Height": 21 } },
+    { "id": 2, "width": 108, "height": 66, "topLeft": null, "shapeType": "Square",
+      "label": { "Text": "api", "Position": "", "Width": 30, "Height": 21 } },
+    { "id": 3, "width": 108, "height": 90, "topLeft": null, "shapeType": "Cylinder",
+      "label": { "Text": "db", "Position": "", "Width": 25, "Height": 21 } },
+    { "id": 4, "width": 120, "height": 66, "topLeft": null, "shapeType": "Oval",
+      "label": { "Text": "client", "Position": "", "Width": 50, "Height": 21 } }
+  ],
+  "edges": [
+    { "id": 10, "from": 4, "to": 2, "points": [], "sourceArrowhead": "", "targetArrowhead": "triangle",
+      "label": { "Text": "HTTPS", "Position": "", "Width": 45, "Height": 21 } },
+    { "id": 11, "from": 2, "to": 3, "points": [], "sourceArrowhead": "", "targetArrowhead": "triangle" }
+  ],
+  "containers": { "0": [1, 4], "1": [2, 3] },
+  "CellSize": 0,
+  "crossingCost": 0,
+  "turnCost": 0,
+  "nonCenterPortCost": 0
+}

@@ -1,0 +1,1 @@
+{"seeds":[{"seed":1,"penalty":0,"area":375769},{"seed":2,"penalty":0,"area":375769},{"seed":3,"penalty":0,"area":375769}],"bestSeed":3,"graph":{"nodes":[{"id":1,"width":613,"height":613,"topLeft":{"x":0,"y":0},"shapeType":"RealSquare"}],"edges":[],"CellSize":613,"containers":{"0":[1]},"crossingCost":0,"turnCost":0,"nonCenterPortCost":0}}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":1,"width":591,"height":123,"topLeft":{"x":1007,"y":851},"shapeType":"Oval"},{"id":2,"width":113,"height":120,"topLeft":{"x":1418,"y":851},"shapeType":"Person"}],"edges":[],"CellSize":0,"containers":{"0":[1],"1":[2]},"crossingCost":0,"turnCost":0,"nonCenterPortCost":0}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":1,"width":521,"height":272,"topLeft":{"x":558,"y":1159},"shapeType":"Person"},{"id":2,"width":623,"height":135,"topLeft":{"x":215,"y":1370},"shapeType":"Person"},{"id":3,"width":128,"height":121,"topLeft":{"x":582,"y":1370},"shapeType":"Callout"}],"edges":[],"CellSize":0,"containers":{"0":[1,2],"2":[3]},"crossingCost":0,"turnCost":0,"nonCenterPortCost":0}

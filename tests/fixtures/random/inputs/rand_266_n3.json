@@ -1,0 +1,1 @@
+{"nodes":[{"id":1,"width":386,"height":224,"topLeft":{"x":493,"y":2069},"shapeType":"Diamond"},{"id":2,"width":111,"height":96,"topLeft":{"x":611,"y":2075},"shapeType":"Callout"},{"id":3,"width":92,"height":90,"topLeft":{"x":608,"y":2128},"shapeType":"Package"}],"edges":[],"CellSize":0,"containers":{"0":[1],"1":[2,3]},"crossingCost":0,"turnCost":0,"nonCenterPortCost":0}

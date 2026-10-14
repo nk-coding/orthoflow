@@ -1,0 +1,20 @@
+[package]
+name = "orthoflow-cli"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license = "MPL-2.0"
+repository.workspace = true
+description = "Command-line interface of orthoflow (layout, stage dumps, scoring, benchmarks)."
+
+[[bin]]
+name = "orthoflow"
+path = "src/main.rs"
+
+[dependencies]
+gocompat.workspace = true
+layoutgraph.workspace = true
+graphjson.workspace = true
+engine.workspace = true
+quality.workspace = true
+orthoflow.workspace = true

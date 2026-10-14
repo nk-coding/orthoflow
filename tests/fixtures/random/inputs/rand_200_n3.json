@@ -1,0 +1,1 @@
+{"nodes":[{"id":1,"width":444,"height":628,"topLeft":{"x":264,"y":156},"shapeType":"Parallelogram"},{"id":2,"width":647,"height":601,"topLeft":{"x":284,"y":360},"shapeType":"RealSquare"},{"id":3,"width":481,"height":547,"topLeft":{"x":295,"y":360},"shapeType":"Queue"}],"edges":[],"CellSize":0,"containers":{"0":[1,2],"2":[3]},"crossingCost":0,"turnCost":0,"nonCenterPortCost":0}

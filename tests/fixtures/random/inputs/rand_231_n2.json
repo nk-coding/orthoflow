@@ -1,0 +1,1 @@
+{"nodes":[{"id":1,"width":707,"height":512,"topLeft":{"x":147,"y":30},"shapeType":"StoredData"},{"id":2,"width":410,"height":478,"topLeft":{"x":259,"y":30},"shapeType":"Parallelogram"}],"edges":[],"CellSize":0,"containers":{"0":[1],"1":[2]},"crossingCost":0,"turnCost":0,"nonCenterPortCost":0}

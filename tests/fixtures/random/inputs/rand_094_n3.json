@@ -1,0 +1,1 @@
+{"nodes":[{"id":1,"width":717,"height":312,"topLeft":{"x":1691,"y":1237},"shapeType":"Document"},{"id":2,"width":213,"height":685,"topLeft":{"x":949,"y":1854},"shapeType":"Callout"},{"id":3,"width":219,"height":702,"topLeft":{"x":1704,"y":970},"shapeType":"Hexagon"}],"edges":[],"CellSize":0,"containers":{"0":[1,2,3]},"crossingCost":0,"turnCost":0,"nonCenterPortCost":0}

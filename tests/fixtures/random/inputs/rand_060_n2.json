@@ -1,0 +1,1 @@
+{"nodes":[{"id":1,"width":86,"height":552,"topLeft":{"x":865,"y":203},"shapeType":"RealSquare"},{"id":2,"width":732,"height":354,"topLeft":{"x":578,"y":886},"shapeType":"RealSquare"}],"edges":[],"CellSize":0,"containers":{"0":[1,2]},"crossingCost":0,"turnCost":0,"nonCenterPortCost":0}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":1,"width":406,"height":194,"topLeft":{"x":506,"y":38},"shapeType":"Hexagon"},{"id":2,"width":658,"height":514,"topLeft":{"x":497,"y":286},"shapeType":"Diamond"}],"edges":[],"CellSize":0,"containers":{"0":[1,2]},"crossingCost":0,"turnCost":0,"nonCenterPortCost":0}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":1,"width":450,"height":325,"topLeft":{"x":126,"y":100},"shapeType":"Step"},{"id":2,"width":698,"height":614,"topLeft":{"x":22,"y":121},"shapeType":"RealSquare"}],"edges":[],"CellSize":0,"containers":{"0":[1,2]},"crossingCost":0,"turnCost":0,"nonCenterPortCost":0}
